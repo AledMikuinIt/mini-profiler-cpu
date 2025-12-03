@@ -8,5 +8,5 @@ void test_fn() {
 
 int main() {
     uint64_t cycles = measure_once(test_fn);
-    printf("Mesure : %llu cycles\n", (unsigned long long)cycles);
+    printf("Measure : %llu cycles\n", (unsigned long long)cycles);
 }
